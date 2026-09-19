@@ -341,27 +341,4 @@ pytest -v tests/
 
 ---
 
-## 10. Video Reflection Script (4-Minute Presentation Guide)
-
-Use this structured outline for your 4-minute presentation video:
-
-- **Minute 0:00 - 0:45 | Introduction & Goal**
-  - Present problem: Researchers drowning in arXiv preprints.
-  - State the mission: An autonomous, stateful agent that fetches papers, generates strict executive briefings, and conducts grounded RAG QA.
-- **Minute 0:45 - 1:45 | Architecture & State Graph**
-  - Walk through the 7-stage state graph (Query Understanding $\rightarrow$ arXiv API $\rightarrow$ Selection $\rightarrow$ PDF Parse $\rightarrow$ Chunk/Embed $\rightarrow$ Briefing $\rightarrow$ Grounded QA).
-  - Explain state persistence with Pydantic `AgentState`.
-- **Minute 1:45 - 2:45 | Live Demo Walkthrough**
-  - Demonstrate a topic search query (`"recent work on KV-cache compression"`).
-  - Showcase the Executive Briefing: point out the mandatory **Limitations** section.
-  - Ask 2 questions in the QA loop: one on quantitative speedups (showing `[Section, Page]` citations) and one out-of-domain trick question (demonstrating anti-hallucination refusal).
-- **Minute 2:45 - 3:45 | Key Technical Tradeoffs & Edge Cases**
-  - Highlight fallback mechanism when PDFs fail (abstract degradation mode).
-  - Explain hybrid retrieval (cosine + lexical keyword boost).
-  - Discuss multi-provider LLM support (Gemini, Groq, Ollama, Mock).
-- **Minute 3:45 - 4:00 | Conclusion & Future Work**
-  - Wrap up with multi-paper comparative synthesis and LaTeX source ingestion roadmap.
-
----
-
 

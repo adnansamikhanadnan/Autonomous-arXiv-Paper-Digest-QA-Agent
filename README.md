@@ -43,7 +43,7 @@ An interactive web prototype and presentation dashboard is provided in [`present
 ### 🖼️ Prototype Screen 1: System Overview & Telemetry Snapshot
 > *High-level overview displaying 7-stage state graph architecture, Pydantic state management, local RRF vector search, and multi-provider LLM status.*
 
-![Prototype System Overview](presentation/assets/prototype_overview.png)
+![Prototype System Overview](presentation/assets/Screenshot_2026-09-20_162856.png)
 
 ### 🖼️ Prototype Screen 2: Live Pipeline Demo & Executive Briefing
 > *Interactive execution trace showing topic query parsing, 5 candidate papers discovery, section-aware PDF parsing (24,006 chars), and structured executive briefing artifact.*

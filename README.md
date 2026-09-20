@@ -436,3 +436,9 @@ pytest -v tests/
 - [`test_advanced_features.py`](file:///d:/Anti%20gravity/Project/tests/test_advanced_features.py): Parent-Child chunking, RRF fusion, grounding score, comparative synthesizer (4 tests)
 
 ---
+
+## 13. Author
+
+**Adnan Sami**  
+B.Tech — Artificial Intelligence & Data Science
+Email Id - adnansami982978@gmail.com
